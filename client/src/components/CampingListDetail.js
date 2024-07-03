@@ -7,7 +7,7 @@ const CampingListDetail = ({ camp }) => {
 		<div>
 			<img
 				loading='lazy'
-				src={camp.firstImageUrl || '/images/no-image-available.png'}
+				src={camp.firstImageUrl || '../../images/no-image-available.png'}
 				alt='campingPicture'
 			/>
 			<GoChevronUp />
